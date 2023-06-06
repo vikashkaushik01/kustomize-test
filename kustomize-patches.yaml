@@ -1,0 +1,9 @@
+clusterPatches:
+- target:
+     kind: Cluster
+     name: k8s-peo-qe-01
+     kustomizePatch: overlays/k8s-peo-qe-01
+- target:
+     kind: Cluster
+     name: k8s-peo-stage-01
+     kustomizePatch: overlays/k8s-peo-stage-01
